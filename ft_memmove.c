@@ -19,7 +19,7 @@ void		*ft_memmove(void *dst, void *src, size_t len)
 	int	i;
 	int b;
 
-	b = (int)len;
+	b = (int)len - 1;
 	dest = (unsigned char *)dst;
 	source = (unsigned char *)src;
 	i = 0;
